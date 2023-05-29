@@ -1812,6 +1812,12 @@ button,
     -webkit-transition: background-color 0.35s ease-in-out;
     -ms-transition: background-color 0.35s ease-in-out;
     transition: background-color 0.35s ease-in-out;
+    margin: 8px;
+}
+
+.secondary {
+    background-color: white;
+    color: black !important;
 }
 
 input[type="button"]:hover,
@@ -2436,4 +2442,9 @@ button:active,
     #footer .copyright li:first-child {
         margin-top: 0;
     }
+}
+
+
+}
+
 }
