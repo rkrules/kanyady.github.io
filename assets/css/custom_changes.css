@@ -1,0 +1,44 @@
+.carousel-item {
+    scroll-snap-align: start;
+    flex: 0 0 30%;
+        /* Default value for desktop */
+    margin: 0 10px 0 10px;
+/* Adjustments for tablets */
+@media screen and (max-width: 1880px) {
+        flex-basis: 30%;
+    }
+    @media (max-width: 960px) {
+        flex-basis: 40%;
+    }
+
+    /* Adjustments for mobile */
+    @media (max-width: 480px) {
+        flex-basis: 65%;
+    }
+}
+
+.carousel{
+    display:flex; 
+    overflow-x:scroll;
+    white-space: nowrap;
+}
+
+.carousel::-webkit-scrollbar {
+    width: 0.5em;
+    /* Adjust the width of the scrollbar */
+}
+
+.carousel::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* Set the background color of the scrollbar track */
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background-color:#f5fafa;
+    /* Set the color of the scrollbar thumb */
+}
+
+.carousel::-webkit-scrollbar-thumb:hover {
+    background-color: #f5fafa;
+    /* Set the color of the scrollbar thumb on hover */
+}
