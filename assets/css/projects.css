@@ -5,8 +5,9 @@ header{
     margin: 1em 0em 1em;
 }
 
-@media screen and (min-width: 961px) and (max-width: 1620px) {
-#main>section.one {
+
+@media screen and (max-width: 1620px) {
+    #main>section.one {
         padding: 0em;
 
     }
