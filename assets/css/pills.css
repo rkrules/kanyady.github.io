@@ -1,0 +1,21 @@
+/* Choice Chip */
+
+.choice-chip {
+background-color:#fbffff;;
+/* Auto layout */
+color: #020707;
+display: inline-flex;
+flex-direction: row;
+font-size: smaller;
+width: 86px;
+height: 32px;
+left: 418px;
+top: 1212px;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+/* Illustrative/Deep Sea */
+
+border: 1px solid #13203A;
+border-radius: 100px;
+}

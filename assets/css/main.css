@@ -2181,7 +2181,7 @@ button:active,
         font-size: 16pt;
     }
     .container {
-        padding: 0 2em 0 2em;
+        padding: 0 0 0 2em;
     }
     /* Icons */
     ul.icons li a {
@@ -2245,7 +2245,7 @@ button:active,
         display: none;
     }
     .container {
-        padding: 0 2em 0 2em;
+        padding: 0 0 0 2em;
     }
     /* Item */
     .item {
@@ -2448,3 +2448,6 @@ button:active,
 }
 
 }
+
+
+/* Add any other necessary styling */
