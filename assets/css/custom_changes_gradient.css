@@ -47,6 +47,9 @@
 .gradient-text-overlay i {
     margin-top: 5px;
 }
+.gradient-image-container img{
+        height:200px;
+}
 .carousel{
     display:flex; 
     overflow-x:scroll;
@@ -72,3 +75,4 @@
     background-color: #f5fafa;
     /* Set the color of the scrollbar thumb on hover */
 }
+
