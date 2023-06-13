@@ -1,0 +1,12 @@
+   /* Adjustments for mobile */
+   @media (max-width: 480px) {
+        .carousel {
+                display: block;
+        
+            }
+            .gradient-image-container img {
+                height: 80px;
+                width:350px;
+            }
+            .
+   }
