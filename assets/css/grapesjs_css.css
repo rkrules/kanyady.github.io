@@ -53,7 +53,9 @@
 .card-header.movies {
     background-image: url("https://kanyady.github.io/images/movies.jpg");
 }
-
+.card-header.movies2 {
+    background-image: url("https://kanyady.github.io/images/movies2.jpg");
+}
 .card-header.nyrental {
     background-image: url("https://kanyady.github.io/images/nyrental.jpg");
 }
