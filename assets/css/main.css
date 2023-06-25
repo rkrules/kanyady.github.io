@@ -212,7 +212,7 @@ h4,
 h5,
 h6 {
     font-weight: 300;
-    color: #666;
+    color: #1D1919;
     line-height: 1.5em;
 }
 
@@ -2116,7 +2116,7 @@ button:active,
 
 #main>section.one {
     background-color: #81918E;
-    background-image: url("../../images/banner.jpg");
+    /* background-image: url("../../images/banner.jpg"); */
 }
 
 #main>section.two {

@@ -1,0 +1,15 @@
+#main>section.one {
+    background-color: #702A29;
+    color:#FFF;
+}
+#main>section.three {
+    background-color:   #ecf1f1;
+    color: #1D1919 !important;
+}
+h3 {
+    color: #1D1919 !important;
+}
+#main>section.two {
+    background-color: ##f5fafa;
+    color: #1D1919 !important;
+}
