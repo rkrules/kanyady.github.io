@@ -19,8 +19,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="assets/css/custom_changes_gradient.css" />
+        <link rel="stylesheet" href="assets/css/grapesjs_css.css" />
         <link rel="stylesheet" href="assets/css/mobile_list.css" />
         <link rel="stylesheet" href="assets/css/constrast.css" />
+        <link rel="stylesheet" href="assets/css/pills.css" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -115,7 +117,7 @@
 
                     <header>
                         <h2 class="alt">Hi! I'm Padmashree!</h2>
-                        <p>I am an enthusiastic, data-driven Google Data Analytics Professional Certificate holder with
+                        <p>I am an enthusiastic, data-driven Google Data Analytics Professional Certificate recepient with
                             expertise in data analysis and visualization.</p>
                     </header>
 
@@ -131,71 +133,130 @@
             <section id="portfolio" class=" two ">
                 <div class="container" style="width:100%;">
 
-                    <header>
                         <h3>Portfolio</h3>
-                    </header>
 
-
+                    <div class="filter-container">
+                        <div class="filter-chip selected" data-filter="all">All</div>
+                        <div class="filter-chip" data-filter="sql">SQL</div>
+                        <div class="filter-chip" data-filter="tableau">Tableau</div>
+                        <div class="filter-chip" data-filter="excel">Excel</div>
+                    </div>
 
                     <div class="carousel">
-                        <div class="carousel-item">
+                        <div class="carousel-item sql">
                             <article class="item">
-                                <a href="tableau.html" class="image fit">
-
-                                    <div class="gradient-image-container">
-                                        <img src="images/tableau.png" alt="" />
-                                        <div class="gradient-text-overlay">
-                                            <span>Tableau <i class="fas fa-arrow-right fa-sm"></i></span>
+                            <a href="https://github.com/Kanyady/Portfolio-Project/blob/main/IMDBMovieProject" target="_blank ">
+                                <div class="card">
+                                    <div class="card-header movies2" id="iq7vov">
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">IMDB Movies - Analysis
+                                        </div>
+                                        <div class="card-sub-title"> MS SQL, Tableau
+                                        </div>
+                                        <div class="card-desc">SQL Code
                                         </div>
                                     </div>
-                                </a>
+                                    <div class="view_more">
+                                        <span>View SQL Code <i class="fas fa-sm fa-arrow-right "></i> </span>
+                                    </div>
+                                </div>
+                            </a>
                             </article>
                         </div>
 
-                        <div class="carousel-item">
-                            <article class="item">
-                                <a href="sql.html" class="image fit">
 
-                                    <div class="gradient-image-container">
-                                        <img src="images/sqlp.png" alt="" />
-                                        <div class="gradient-text-overlay">
-                                            <span>SQL <i class="fas fa-arrow-right fa-sm"></i></span>
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </article>
-                        </div>
-                        <!-- <div class="carousel-item">
+<div class="carousel-item tableau sql">
     <article class="item">
-                <a href="r.html"
-
-            target="_blank" class="image fit">
-
-            <div class="gradient-image-container">
-                <img src="images/r.png" alt="" />
-                <div class="gradient-text-overlay">
-                                                            <span>R  <i class="fas fa-arrow-right fa-sm"></i></span>
-
+        <a href="https://public.tableau.com/app/profile/padmashree.ravikiran/viz/COVID19dashboard_16856474756330/Dashboard1 "
+            target="_blank ">
+            <div class="card">
+                <div class="card-header" id="iq7vov">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Covid19 Dashboard
+                    </div>
+                    <div class="card-sub-title">Tableau Visualization
+                    </div>
+                    <div class="card-desc">Data exploration, modelling & visualization
+                    </div>
+                </div>
+                <div class="view_more">
+                    <span>View Tableau <i class="fas fa-sm fa-arrow-right "></i> </span>
                 </div>
             </div>
         </a>
     </article>
-</div> -->
-                        <div class="carousel-item">
-                            <article class="item">
-                                <a href="excel.html" class="image fit">
+</div>
 
-                                    <div class="gradient-image-container">
-                                        <img src="images/excel.png" alt="" />
-                                        <div class="gradient-text-overlay">
-                                            <span>Excel <i class="fas fa-arrow-right fa-sm"></i></span>
+<div class="carousel-item tableau">
+    <article class="item">
+        <a href="https://public.tableau.com/views/AirBnBdataNYC2019/Dashboard1?:display_count=n&:origin=viz_share_link"
+            target="_blank ">
+            <div class="card">
+                <div class="card-header nyrental" id="iq7vov">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Rental Prices in NYC
+                    </div>
+                    <div class="card-sub-title">Interactive Dashboard
+                    </div>
+                    <div class="card-desc">Big data cleaning, interactive dashboard
+                    </div>
+                </div>
+                <div class="view_more">
+                    <span>View More <i class="fas fa-sm fa-arrow-right "></i> </span>
+                </div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="carousel-item excel">
+    <article class="item">
+        <a href="https://onedrive.live.com/edit.aspx?resid=536069DB72127E97!14192&ithint=file%2cxlsx&wdo=2&authkey=!ANO8Vhhv4111JVg"
+            target="_blank ">
+            <div class="card">
+                <div class="card-header chbike" id="iq7vov">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Bike Sales
+                    </div>
+                    <div class="card-sub-title">MS Excel
+                    </div>
+                    <div class="card-desc">Data manipulation, modeling using pivot table and
+                        interactive dashboard
+                    </div>
+                </div>
+                <div class="view_more">
+                    <span>View More <i class="fas fa-sm fa-arrow-right "></i> </span>
+                </div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="carousel-item tableau">
+    <article class="item">
+        <a href="https://public.tableau.com/app/profile/padmashree.ravikiran/viz/IMDBdashboard_16863698375660/Dashboard1"
+            target="_blank ">
+            <div class="card">
+                <div class="card-header movies" id="iq7vov">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">IMDB Movies- Analysis
+                    </div>
+                    <div class="card-sub-title">SQL, Tableau
+                    </div>
+                    <div class="card-desc">Data manipulation & visualization
+                    </div>
+                </div>
+                <div class="view_more">
+                    <span>View Tableau <i class="fas fa-sm fa-arrow-right "></i>
+                </div>
 
-                                        </div>
-                                    </div>
-                                </a>
-                            </article>
-                        </div>
+            </div>
+        </a>
+    </article>
+</div>
                         <!-- Add more card items here -->
                     </div>
 
@@ -222,7 +283,7 @@
                         </div>
                         <div class="col-9 col-12-mobile col-8-narrower   ">
                             <div class="text " style="text-align:left ">
-                                <p>I am a Google Data Analytics Professional Certificate course participant with
+                                <p>I am a Google Data Analytics Professional Certificate recepient with
                                     expertise in data analysis and visualization. I have experience in managing
                                     Management Information Systems (MIS)
                                     ISO audit files in the wind turbine assembly industry and am
@@ -304,16 +365,7 @@
 
         </div>
 
-        <!-- Footer -->
-        <div id="footer">
-
-            <!-- Copyright -->
-            <ul id="copywright " class="copyright ">
-                <li>&copy; Untitled. All rights reserved.</li>
-                <li>Design: <a href="http://html5up.net ">HTML5 UP</a></li>
-            </ul>
-
-        </div>
+    
 
         <!-- Scripts -->
         <script src="assets/js/jquery.min.js "></script>
@@ -323,6 +375,7 @@
         <script src="assets/js/breakpoints.min.js "></script>
         <script src="assets/js/util.js "></script>
         <script src="assets/js/main.js "></script>
+        <script src="assets/js/pills.js "></script>
 
     </body>
 

@@ -19,3 +19,53 @@ font-size: 14px;
 border: 1px solid #13203A;
 border-radius: 100px;
 }
+
+/* Style for the filter container */
+.filter-container {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+/* Style for individual filter chips */
+.filter-chip {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for selected filter chip */
+.filter-chip.selected {
+    background-color: #6F2928;
+    /* Example color */
+    color: white;
+}
+
+/* Example excel card style */
+.carousel-item.sql.show{
+    display: block;
+}
+/* Example excel card style */
+.carousel-item.excel.show {
+    display: block;
+}
+/* Example excel card style */
+.carousel-item.tableau.show {
+    display: block;
+}
+.carousel-item.sql {
+    /* Example color */
+    display: none;
+}
+/* Example tableau card style */
+.carousel-item.tableau {
+    display: none;
+}
+/* Example excel card style */
+.carousel-item.excel {
+    display: none;
+}

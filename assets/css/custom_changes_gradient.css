@@ -19,6 +19,7 @@
 }
 
 
+
 .gradient-image-container {
     position: relative;
     display: inline-block;
@@ -51,9 +52,9 @@
         height:200px;
 }
 .carousel{
-    display:flex; 
     overflow-x:scroll;
-    white-space: nowrap;
+    /* white-space: nowrap; */
+    display:flex ; 
 }
 
 .carousel::-webkit-scrollbar {
