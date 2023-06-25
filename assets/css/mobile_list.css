@@ -2,6 +2,7 @@
    @media (max-width: 480px) {
         .carousel {
                 display: block;
+                margin: 10%;
         
             }
             .gradient-image-container img {

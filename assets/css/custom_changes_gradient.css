@@ -52,11 +52,9 @@
         height:200px;
 }
 .carousel{
-    display:flex !important; 
     overflow-x:scroll;
     /* white-space: nowrap; */
-    justify-content: space-evenly;
-        flex-flow: wrap;
+    display:flex ; 
 }
 
 .carousel::-webkit-scrollbar {
