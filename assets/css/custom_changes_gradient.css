@@ -54,7 +54,9 @@
 .carousel{
     overflow-x:scroll;
     /* white-space: nowrap; */
-    display:flex ; 
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    display: flex !important;
 }
 
 .carousel::-webkit-scrollbar {
