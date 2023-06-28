@@ -33,17 +33,17 @@ scroll-snap-align: start;
 }
 
  .carousel{
-    display:flex; 
+    display:flex;
     overflow-x:hidden;
     white-space: nowrap;
-} 
+}
 
 .. card with text overlay but no carousel ,,
   <div class="col-4 col-6-mobile ">
                             <article class="item ">
                                 <a href="https://public.tableau.com/app/profile/padmashree.ravikiran/viz/COVID19dashboard_16856474756330/Dashboard1 "
                                     target="_blank " class="image fit ">
-                                   
+
                                     <div class="gradient-image-container">
                                     <img src="images/pic02.jpg " alt=" " />
                                                                             <div class="gradient-text-overlay">
@@ -66,4 +66,7 @@ https://www.marsx.dev/join-waitlist
 
 6.25
 - https://bootstrapmade.com/demo/iPortfolio/
-- git clean -fdx ; git reset 
+- git clean -fdx ; git reset
+
+6.28
+- https://careerfoundry.com/en/blog/ui-design/best-free-animation-libraries/
