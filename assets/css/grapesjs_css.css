@@ -22,13 +22,7 @@
 .card {
     background-color: #FFF;
     /* height: 300px; */
-
-
-    /* Adjustments for mobile */
-    @media (max-width: 480px) {
-        width: 300px;
-
-    }
+    width: 300px;
     margin-bottom: 30px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
