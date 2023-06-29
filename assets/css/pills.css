@@ -77,9 +77,10 @@ mark {
   background: transparent;
   background-image: linear-gradient(
     to right,
-    #ff7c66,
-    #ff7c66 4%
+    #f18c7a,
+    #f18c7a 4%
   );
+  color:aliceblue;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
