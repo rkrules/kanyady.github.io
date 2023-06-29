@@ -70,3 +70,8 @@ https://www.marsx.dev/join-waitlist
 
 6.28
 - https://careerfoundry.com/en/blog/ui-design/best-free-animation-libraries/
+- https://javascript.plainenglish.io/8-on-scroll-animation-javascript-libraries-you-can-consider-df458f80a873
+- aos / animate
+- https://designmodo.com/dynamic-animations-ui/
+- https://www.anthonyhobday.com/sideprojects/visualsyllabus/
+- 
