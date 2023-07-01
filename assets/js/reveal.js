@@ -1,5 +1,5 @@
 const scrollOffset = 0.75;
-const scrollElement = document.querySelector(".hidden-element");
+const scrollElements = document.querySelectorAll(".hidden-element");
 const elementInView = (el, offset = 0) => {
   const elementTop = el.getBoundingClientRect().top;
   return (
@@ -8,17 +8,25 @@ const elementInView = (el, offset = 0) => {
   );
 };
 const displayScrollElement = () => {
-  scrollElement.classList.add('reveal');
+  scrollElements.forEach((el)=> {
+    el.classList.add('reveal');
+  })
 }
 const hideScrollElement = () => {
-  scrollElement.classList.remove('reveal');
+  scrollElements.forEach((el)=> {
+    el.classList.remove('reveal');
+  })
 }
 const handleScrollAnimation = () => {
-  if (elementInView(scrollElement, scrollOffset)) {
-      displayScrollElement();
-  } else {
-    hideScrollElement();
-  }
+  scrollElements.forEach((el) => {
+    if (elementInView(el, 0.75)) {
+      displayScrollElement(el);
+
+    } else {
+      hideScrollElement(el);
+
+    }
+  })
 }
 
 //initialize throttleTimer as false

@@ -74,4 +74,15 @@ https://www.marsx.dev/join-waitlist
 - aos / animate
 - https://designmodo.com/dynamic-animations-ui/
 - https://www.anthonyhobday.com/sideprojects/visualsyllabus/
+- https://daveyandkrista.com/best-free-google-fonts/
+
+6.30
+- https://andycaygill.github.io/scroll-entrance/
+- animate.min.css - didn't work
+- animon - didn't work
+- aos - didn't work for multiple  
+- https://github.com/andycaygill/scroll-entrance - didn't work
+- https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
+
+7.1
 - 
