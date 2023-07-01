@@ -56,6 +56,10 @@
 .card-header.chbike {
     background-image: url("https://kanyady.github.io/images/bike2.jpg");
 }
+.card-header.chbike3 {
+    background-image: url("https://kanyady.github.io/images/bike3.jpg");
+}
+
 .card-header.movies {
     background-image: url("https://kanyady.github.io/images/movies.jpg");
 }

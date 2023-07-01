@@ -82,3 +82,7 @@ https://www.marsx.dev/join-waitlist
 - animon - didn't work
 - aos - didn't work for multiple  
 - https://github.com/andycaygill/scroll-entrance - didn't work
+- https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
+
+7.1
+- 
