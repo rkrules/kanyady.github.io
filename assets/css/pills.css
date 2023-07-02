@@ -25,6 +25,7 @@ border-radius: 100px;
     display: flex;
     justify-content: center;
     margin: 16px;
+    flex-flow:wrap;
 }
 
 /* Style for individual filter chips */
