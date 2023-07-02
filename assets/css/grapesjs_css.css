@@ -31,6 +31,7 @@
     text-align: left;
     border-style: double;
     border-bottom: 5px solid #ff7c66;
+    width: 300px;
     
 @media screen and (max-width: 500px) {
     width: 300px;
