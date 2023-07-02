@@ -85,4 +85,14 @@ https://www.marsx.dev/join-waitlist
 - https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
 
 7.1
+- Paralax coding effects https://codepen.io/webmadewell/pen/zppMBX
+- https://www.kickresume.com/en/ai-resume-writer/ design inspiration for font
+- https://css-tricks.com/scroll-triggered-animation-vanilla-javascript/ scroll based animation
+- Design inspiration https://www.arhantayoga.org/kapalabhati-skull-shining-breath/
+- https://boomi.com/ design inspiration
+- https://blog.wishpond.com/post/115675438335/website-design-tips design inspiration
+- https://10web.io/ tools
+
+7.2
+- https://github.com/ChibaMai/aos worked
 - 
