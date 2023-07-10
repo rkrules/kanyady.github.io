@@ -71,6 +71,12 @@ border-radius: 100px;
     display: none;
 }
 
+.carousel-item.R{
+    display: none;
+}
+.carousel-item.R.show{
+    display: block;
+}
 mark {
   margin: 0 -0.2em;
   padding: 0.1em 0.4em;
