@@ -30,8 +30,10 @@ dialog {
 		right:2px;
 		cursor: pointer;
         padding:5px 17px;
+	font-size: 1rem;
+
 	}
-	
+
 	p {
 		font-size: 1rem;
 		line-height: 1.3rem;
@@ -43,11 +45,12 @@ dialog {
 			}
 		}
 	}
-	ul {
-		font-size: 1rem;
-		line-height: 1.3rem;
-		padding: 0;
-	}
+}
+dialog ul {
+
+	font-size: 1rem;
+	line-height: 1.3rem;
+	padding: 0;
 }
 
 @keyframes fadeIn {
