@@ -10,7 +10,7 @@
 
 /*Dialog Styles*/
 dialog {
-	padding: 1rem 3rem;
+	/* padding: 1rem 3rem; */
 	background: white;
 	max-width: 400px;
 	border-radius: 20px;
