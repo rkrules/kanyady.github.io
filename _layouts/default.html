@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="assets/css/reveal.css" />
         <link rel="stylesheet" href="assets/css/aos.css" />
         <link rel="stylesheet" href="assets/css/modal.css" />
+        <link rel="stylesheet" href="assets/css/card2.css" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -104,7 +105,7 @@
                     <div class="carousel">
                         {% assign projects = site.data.projects.main | sort: 'order' %}
                         {% for item in projects %}
-                        {% include card.html
+                        {% include card2.html
                         card-image  = item.card-image
                         card-cat    = item.card-cat
                         card-title  = item.card-title
@@ -115,6 +116,8 @@
                         desc3       = item.desc3
                         target      = item.target
                         target-text = item.target-text
+                        card-bullets = item.card-bullets
+
                         %}
                         {% endfor %}
                     </div>

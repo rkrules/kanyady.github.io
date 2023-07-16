@@ -2,12 +2,13 @@ main:
   - card-image: "chbike3"
     card-cat: "R"
     card-title: "Capstone - Cyclistic data" 
-    card-desc: "Data exploration, modelling & visualization"
+    card-desc: "Data exploration, modelling & visualization. More content that can be filled here."
     card-id: "capstone"
     desc1: "Description 1"
     desc2: "Description 2"
     desc3: "Description 2"
     target: "capstone.html"
+    card-bullets: [ "R", "Cleaning", "Modeling", "Visualization" ]
     target-text: "View Rmd Code & Output"
     order: 1
   - card-image: "movies2"
