@@ -1,3 +1,5 @@
+<div class="carousel-item {{ include.card-cat }}">
+
 <article class="item">
     <a>
         <div class="card" onclick="window.{{ include.card-id }}.showModal();">
@@ -22,7 +24,7 @@
         </div>
     </a>
 </article>
-
+</div>
 <dialog id="{{ include.card-id }}">
     <h4>{{ include.card-title }}</h4>
     <ul style="text-align: left;">
