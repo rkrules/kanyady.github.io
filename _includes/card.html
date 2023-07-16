@@ -1,0 +1,51 @@
+<article class="item">
+    <a>
+        <div class="card" onclick="window.{{ include.card-id }}.showModal();">
+            <div class="card-header {{ include.card-image }} " id="iq7vov">
+                <!-- <div style="
+                  margin: auto;" >
+                                    Social Buzz
+                  
+                </div> this will place text in card
+            add style="display:flex" to card header -->
+            </div>
+            <div class="card-body">
+                <div class="card-title">{{ include.card-title }}
+                </div>
+
+                <div class="card-desc">{{ include.card-desc }}
+                </div>
+            </div>
+            <div class="view_more">
+                <span>View Details <i class="fas fa-sm fa-arrow-right "></i> </span>
+            </div>
+        </div>
+    </a>
+</article>
+
+<dialog id="{{ include.card-id }}">
+    <h4>{{ include.card-title }}</h4>
+    <ul style="text-align: left;">
+        <li>
+            {{ include.desc1 }}
+        </li>
+        <li>
+            {{ include.desc2 }}
+    
+        </li>
+        <li>
+            {{ include.desc3 }}
+        
+        </li>
+    </ul>
+    <div style="font-color:black;background-color:none;" class="x" onclick="window.{{ include.card-id }}.close();"
+        aria-label="close">
+        X
+    </div>
+    <div class="view_more">
+        <a href="{{ include.target }}" target="_blank ">
+            <span class="primary button" style="font-size: medium; padding:4px;"> {{ include.target-text }} <i
+                    class="fas fa-sm fa-arrow-right "></i>
+        </a>
+    </div>
+</dialog>
