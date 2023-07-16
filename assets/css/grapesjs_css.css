@@ -47,31 +47,41 @@
 
 .card-header {
     height: 155px;
-    background-image: url("https://kanyady.github.io/images/covid_sql.png");
     background-size: cover;
     background-position: center center;
 }
 
+.card-header.covid {
+    background-image: url("https://kanyady.github.io/images/covid_sql.png");
+
+}
+
+
 .card-header.ch2 {
-    background-image: url("https://kanyady.github.io/images/pic06.jpg");
+    background-image: url("/images/pic06.jpg");
 }
 .card-header.chbike {
-    background-image: url("https://kanyady.github.io/images/bike2.jpg");
+    background-image: url("/images/bike2.jpg");
 }
 .card-header.chbike3 {
-    background-image: url("https://kanyady.github.io/images/bike3.jpg");
+    background-image: url("/images/bike3.jpg");
 }
 
 .card-header.movies {
-    background-image: url("https://kanyady.github.io/images/movies.jpg");
+    background-image: url("/images/movies.jpg");
 }
 .card-header.movies2 {
-    background-image: url("https://kanyady.github.io/images/movies2.jpg");
+    background-image: url("/images/movies2.jpg");
 }
 .card-header.nyrental {
-    background-image: url("https://kanyady.github.io/images/nyrental.jpg");
+    background-image: url("/images/nyrental.jpg");
 }
-
+.card-header.usp {
+    background-image: url("/images/us_p.jpg");
+}
+.card-header.buzz {
+    background-image: url("/images/social.png");
+}
 .card-header.ch5 {
     background-image: url("https://via.placeholder.com/350x250/f28c33/fff");
 }

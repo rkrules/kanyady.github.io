@@ -145,6 +145,7 @@
                                         <div class="filter-chip" data-filter="tableau">Tableau</div>
                                         <div class="filter-chip" data-filter="excel">Excel</div>
                                         <div class="filter-chip" data-filter="R">R</div>
+                                        <div class="filter-chip" data-filter="forage">Virtual Internship</div>
                                     </div>
                                     
                                     <div class="carousel">
@@ -194,7 +195,7 @@
                                                 
                                                 <a>
                                                     <div class="card" onclick="window.covid19_d.showModal();">
-                                                        <div class="card-header" id="iq7vov">
+                                                        <div class="card-header covid" id="iq7vov">
                                                         </div>
                                                         <div class="card-body">
                                                             <div class="card-title">Covid19 Dashboard
@@ -251,6 +252,74 @@
                                                 </a>
                                             </article>
                                         </div>
+                                        <div class="carousel-item tableau">
+                                            <article class="item">
+                                                <a>
+                                                    <div class="card" onclick="window.movie_tableu_d.showModal();">
+                                                
+                                                        <div class="card-header movies" id="iq7vov">
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="card-title">IMDB Movies- Visualization
+                                                            </div>
+                                                            <div class="card-desc">Visualization in Tableau
+                                                            </div>
+                                                        </div>
+                                                        <div class="view_more">
+                                                            <span>View Details <i class="fas fa-sm fa-arrow-right "></i>
+                                                        </div>
+                                        
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+<div class="carousel-item excel">
+    <article class="item">
+        <a>
+            <div class="card" onclick="window.usp.showModal();">
+
+                <div class="card-header usp" id="iq7vov">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">US Presidents
+                    </div>
+                    <div class="card-desc">Excel
+                    </div>
+                </div>
+                <div class="view_more">
+                    <span>View Details <i class="fas fa-sm fa-arrow-right "></i>
+                </div>
+
+            </div>
+        </a>
+    </article>
+</div>
+<div class="carousel-item forage excel">
+    <article class="item">
+        <a>
+            <div class="card" onclick="window.socialbuzz.showModal();">
+
+                <div class="card-header buzz" style="display:flex" id="iq7vov">
+                    <!-- <div style="
+  margin: auto;" >
+                    Social Buzz
+  
+</div> -->
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Social Buzz
+                    </div>
+                    <div class="card-desc">Data cleaning, modeling in Excel
+                    </div>
+                </div>
+                <div class="view_more">
+                    <span>View Details <i class="fas fa-sm fa-arrow-right "></i>
+                </div>
+
+            </div>
+        </a>
+    </article>
+</div>
                                         <!-- Add more card items here -->
                                     </div>
                                 </div>
@@ -275,7 +344,51 @@
                                 <div class="view_more">
                                     <a href="capstone.html"
                                     target="_blank ">
-                                    <span style="font-size: medium;">View Rmd Code & Output <i class="fas fa-sm fa-arrow-right "></i>
+                                    <span class="primary button" style="font-size: medium; padding:4px;">View Rmd Code & Output <i class="fas fa-sm fa-arrow-right "></i>
+                                    </a>
+                                </div>
+                            </dialog>
+                        <dialog id="socialbuzz">
+                            <h4>Social Buzz</h4>
+                            <p>
+                            <ul>
+                                <li>
+                                    Did this
+                                </li>
+                                <li>
+                                    Did that
+                                </li>
+                            </ul>
+                            </p>
+                            <div style="font-color:black;background-color:none;" class="x" onclick="window.socialbuzz.close();"
+                                aria-label="close">
+                                X
+                            </div>
+                        </dialog>
+                            <dialog id="movie_tableu_d">
+                                <h4>IMDB Movies - Visualization></h4>
+                                <p>
+                                <ul>
+                                    <li>
+                                    Imported and configured the CSV files, ensuring data accuracy for further analysis and visualizations
+                                    </li>
+                                    <li>
+                                        Created compelling visual representations by selecting appropriate chart types, customizing visual elements, and
+                                        leveraging Tableau's features.
+                                    </li>
+                            
+                                    <li>
+                                    Assembled the visualizations into a cohesive layout, added interactive elements, and refined the dashboard to
+                                    effectively showcase insights and findings.
+                                    </li>
+                                </ul>
+                                </p>
+                                <div style="font-color:black;background-color:none;" class="x" onclick="window.movie_tableu_d.close();" aria-label="close">
+                                    X
+                                </div>
+                                <div class="view_more">
+                                    <a href=" https://public.tableau.com/app/profile/padmashree.ravikiran/viz/IMDBdashboard_16863698375660/Dashboard1" target="_blank ">
+                                        <span class="primary button" style="font-size: medium; padding:4px;">View Tableau <i class="fas fa-sm fa-arrow-right "></i>
                                     </a>
                                 </div>
                             </dialog>
@@ -304,7 +417,7 @@
                                 <div class="view_more">
                                     <a href="https://github.com/Kanyady/Portfolio-Project/blob/main/IMDBMovieProject"
                                     target="_blank ">
-                                    <span style="font-size: medium;">View SQL Code <i class="fas fa-sm fa-arrow-right "></i>
+                                    <span class="primary button" style="font-size: medium; padding:4px;">View SQL Code <i class="fas fa-sm fa-arrow-right "></i>
                                     </a>
                                 </div>
                             </dialog>
@@ -326,7 +439,7 @@
                                 <div class="view_more">
                                     <a href="https://public.tableau.com/app/profile/padmashree.ravikiran/viz/COVID19dashboard_16856474756330/Dashboard1"
                                     target="_blank ">
-                                    <span style="font-size: medium;">View Tableau <i class="fas fa-sm fa-arrow-right "></i>
+                                    <span class="primary button" style="font-size: medium; padding:4px;">View Tableau <i class="fas fa-sm fa-arrow-right "></i>
                                     </a>
                                 </div>
                             </dialog>
@@ -348,7 +461,7 @@
                                 <div class="view_more">
                                     <a href="https://public.tableau.com/views/AirBnBdataNYC2019/Dashboard1?:display_count=n&:origin=viz_share_link"
                                     target="_blank ">
-                                    <span style="font-size: medium;">View Tableau <i class="fas fa-sm fa-arrow-right "></i>
+                                    <span class="primary button" style="font-size: medium; padding:4px;">View Tableau <i class="fas fa-sm fa-arrow-right "></i>
                                     </a>
                                 </div>
                             </dialog>
@@ -370,11 +483,34 @@
                                 <div class="view_more">
                                     <a href="https://onedrive.live.com/edit.aspx?resid=536069DB72127E97!14192&ithint=file%2cxlsx&wdo=2&authkey=!ANO8Vhhv4111JVg"
                                     target="_blank ">
-                                    <span style="font-size: medium;">View Spreadsheet <i class="fas fa-sm fa-arrow-right "></i>
+                                    <span class="primary button" style="font-size: medium; padding:4px;">View Spreadsheet <i class="fas fa-sm fa-arrow-right "></i>
                                     </a>
                                 </div>
                             </dialog>
-                            
+                            <dialog id="usp">
+                                <h4>US Presidents</h4>
+                                <p>
+                                <ul>
+                                    <li>
+                                        Did this
+                                    </li>
+                                    <li>
+                                        Did that
+                                    </li>
+                                </ul>
+                                </p>
+                                <div style="font-color:black;background-color:none;" class="x" onclick="window.usp.close();"
+                                    aria-label="close">
+                                    X
+                                </div>
+                                <div class="view_more">
+                                    <a href="https://docs.google.com/spreadsheets/d/1iGBbI41W58VUSEjMu1U0FAVkY8KelfqAQIgKCxVsVns/edit#gid=2095456388"
+                                        target="_blank ">
+                                        <span class="primary button" style="font-size: medium; padding:4px;">View Excel <i
+                                                class="fas fa-sm fa-arrow-right "></i>
+                                    </a>
+                                </div>
+                            </dialog>
                             
                             
                             

@@ -95,4 +95,17 @@ https://www.marsx.dev/join-waitlist
 
 7.2
 - https://github.com/ChibaMai/aos worked
-- 
+
+7.14
+- added modal and styled it
+- added missing card of US presidents
+- removed animation as it didn't work on mobile (this wasn't on 7.14)
+- added just the cards with background color
+
+7.15
+- I think i finally found the site i was looking for - https://drippop.com/
+- I am also looking for other two design inspirations 
+- some i recall are boomi.com for cards
+- good for some elements including pricing cards https://leavemealone.com
+- this has some interesting interaction of listview and changing images on desktop vs scrolling cards on mobile -> https://www.greenhouse.com
+- https://whereispoland.com/en/m/ nice design inspiration 
