@@ -4,9 +4,9 @@ main:
     card-title: "Capstone - Cyclistic data" 
     card-desc: "Data exploration, modelling & visualization. More content that can be filled here."
     card-id: "capstone"
-    desc1: "Description 1"
-    desc2: "Description 2"
-    desc3: "Description 2"
+    desc1: "In-depth analysis of the data provided by Cyclistic like data extraction, cleaning and manipulating using R programming to explore factors such as trip durations, peak usage time etc"
+    desc2: "Usage patterns of the members and causal users"
+    desc3: "Developing marketing strategy based on the insights generated and recommendations to increase members"
     target: "capstone.html"
     card-bullets: [ "R", "Cleaning", "Modeling", "Visualization" ]
     target-text: "View Rmd Code & Output"
@@ -30,8 +30,8 @@ main:
     card-title: "Covid19 Dashboard"
     card-desc: "Data exploration, modelling & Tableau visualization"
     card-id: "covid19"
-    desc1: "Description 1"
-    desc2: "Description 2"
+    desc1: "Cleaned and analyzed a dataset on COVID statistics in Microsoft SQL Server, creating views with subsets of the data"
+    desc2: "Compiled a dashboard by creating various visuals such as bar charts, line graphs, and a map chart in Tableau"
     target: "https://public.tableau.com/app/profile/padmashree.ravikiran/viz/COVID19dashboard_16856474756330/Dashboard1"
     target-text: "View Tableau"
     order: 3
