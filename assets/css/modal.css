@@ -1,0 +1,82 @@
+/* Please ❤ this if you like it! */
+/* Follow Me https://codepen.io/designfenix */
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/*Dialog Styles*/
+dialog {
+	/* padding: 1rem 3rem; */
+	background: white;
+min-width: 300px;
+	border-radius: 20px;
+    border: 2px dashed #ff7c66;
+
+	box-shadow: 0 5px 30px 0 rgb(0 0 0 / 10%);
+	animation: fadeIn 1s ease both;
+	&::backdrop {
+		animation: fadeIn 1s ease both;
+		background: rgb(255 255 255 / 40%);
+		z-index: 2;
+		backdrop-filter: blur(20px);
+	}
+	.x {
+    position: absolute;
+		top: 5px;
+		right:2px;
+		cursor: pointer;
+        padding:5px 17px;
+	font-size: 1rem;
+
+	}
+
+	p {
+		font-size: 1rem;
+		line-height: 1.3rem;
+		margin:0;
+		padding: 0.5rem 0;
+		a {
+			&:visited {
+				color: rgb(var(--vs-primary));
+			}
+		}
+	}
+}
+dialog ul {
+
+	font-size: 1rem;
+	line-height: 1.3rem;
+	padding: 0;
+}
+dialog li{
+	padding:5px;
+}
+dialog a{
+	border-bottom:none;
+}
+
+@media screen and (max-width: 500px) {
+dialog {
+	
+	max-width: 300px;
+}
+}
+
+@media (min-width: 501px) {
+dialog {
+	max-width: 60%;
+}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
