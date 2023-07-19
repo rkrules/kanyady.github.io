@@ -85,6 +85,18 @@ main:
     card-id: "buzz"
     desc1: "Identified and removed unnecessary columns, handled missing values, standardized formatting, eliminated duplicates, validated accuracy, and performed necessary calculations or transformations data provided by Social Buzz"
     desc2: "Developed charts to draw insights and then presented data to the client"
-    target: "capstone.html"
+    target: "/images/SocialBuzz.png"
     target-text: "View Certificate"
+    card-bullets: [ "VLOOKUP", "Pivot Table", "Powerpoint"]
     order: 8
+  - card-image: "wine"
+    card-cat: "R"
+    card-title: "Wine Quality"
+    card-desc: "Analyzing relation between alcohol, acidity, pH and wine quality"
+    card-id: "wine"
+    desc1: "Cleaned and manipulated data"
+    desc2: "Developed visualization to draw insights"
+    target: "https://www.kaggle.com/code/padmashreeravikiran/wine-quality"
+    target-text: "View R code & Output"
+    card-bullets: [ "R", "Visualization"]
+    order: 9

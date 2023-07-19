@@ -41,10 +41,12 @@
             {{ include.desc2 }}
 
         </li>
+        {% if include.desc3 %}
         <li>
             {{ include.desc3 }}
 
         </li>
+        {% endif %}
     </ul>
     <div style="font-color:black;background-color:none;" class="x" onclick="window.{{ include.card-id }}.close();"
         aria-label="close">
