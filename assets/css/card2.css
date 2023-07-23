@@ -12,17 +12,20 @@ background-color: #FFF;
     border-bottom: 5px solid #ff7c66;
      cursor: pointer;
      padding:10px;
-     margin-bottom:20px;   
+     margin-bottom:20px;
     /* width: 300px; */
 
 @media screen and (max-width: 500px) {
     width: 300px;
 
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  width: 300px;
+}
   display: grid;
   grid-template-columns: auto 1.5fr 0.5fr;
   grid-template-rows: 1fr 0.25fr 0.5fr 0.25fr;
-  grid-template-areas: 
+  grid-template-areas:
     "image image image"
     "title title title"
     "desc desc desc-bullets"
@@ -54,7 +57,7 @@ background-color: #FFF;
   grid-area: desc-bullets;
   font-size: 10px;
   line-height: 1.5em;
-  align-self: center;  
+  align-self: center;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   box-shadow: -0.25px 0;
 }
