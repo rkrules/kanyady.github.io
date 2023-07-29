@@ -15,13 +15,6 @@ background-color: #FFF;
      margin-bottom:20px;
     /* width: 300px; */
 
-@media screen and (max-width: 500px) {
-    width: 300px;
-
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 3) {
-  width: 300px;
-}
   display: grid;
   grid-template-columns: auto 1.5fr 0.5fr;
   grid-template-rows: 1fr 0.25fr 0.5fr 0.25fr;
@@ -29,8 +22,21 @@ background-color: #FFF;
     "image image image"
     "title title title"
     "desc desc desc-bullets"
-    "cta cta cta"
+    "cta cta cta";
+  
+
+
 }
+@media screen and (max-width: 500px) {
+.container-card {
+   
+  width: 300px;
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+.container-card {
+  width: 300px;
+}}
 .container-card:hover {
     margin-top: -5px;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
