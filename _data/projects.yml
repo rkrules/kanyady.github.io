@@ -1,7 +1,7 @@
 main:
   - card-image: "chbike3"
     card-cat: "R"
-    card-title: "Capstone - Cyclistic data" 
+    card-title: "Capstone - Cyclistic data"
     card-desc: "Data exploration, modelling & visualization. More content that can be filled here."
     card-id: "capstone"
     desc1: "Imported 12 excel datasheets with millions of entries into R, then used tidyr package to clean the datasets and prepare them for analysis"
@@ -65,7 +65,7 @@ main:
     card-id: "bikesales"
     desc1: "Cleaned and analyzed a dataset on Excel spreadsheet. Using pivot table gained demographic insights of the users"
     desc2: "Developed interactive dashboard using the pivot charts"
-    target: "https://onedrive.live.com/edit.aspx?resid: 536069DB72127E97!14192&ithint: file%2cxlsx&wdo: 2&authkey: !ANO8Vhhv4111JVg"
+    target: "https://1drv.ms/x/s!Apd-EnLbaWBT7nBa19HmFj3nHKe8?e=FHUo70"
     target-text: "View Spreadsheet"
     order: 6
   - card-image: "usp"
